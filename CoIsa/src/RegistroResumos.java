@@ -17,7 +17,7 @@ public class RegistroResumos {
         return resumosexistentes;
     }
     public String imprimeResumos() {
-        String frase = "- " + cont + " resumo(s) cadastrado(s)" + "\n";
+        String frase = "- " + cont + " resumo(s) cadastrado(s)" + "\n" + "- ";
         for (int i = 0; i < cont; i++) {
             if (i == cont -1){
                 frase += resumos[i].getTema();
