@@ -39,7 +39,7 @@ public class Descanso {
     /**
      * Retorna a String que representa se o aluno está cansado ou descansado. A representação segue o formato "cansado"-para os alunos que tiveram menos de 26 horas de descanso por semana- e "descansado" -para os alunos que tiverem mais de 26 horas de descanso por semana_.
      *
-     * @return a representação em String do descanso.
+     * @return a representação em String do descanso..
      */
 
     public String getStatusGeral() {
