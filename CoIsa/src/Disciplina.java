@@ -10,7 +10,7 @@ public class Disciplina {
         this.nomedadisciplina = nomeDisciplina;
     }
     public void cadastraHoras(int horasdeestudo){
-        this.horasdeestudo = horasdeestudo;
+        this.horasdeestudo += horasdeestudo;
     }
     public void cadastraNota(int nota, double valorNota){
         this.notas[nota - 1] = valorNota;

@@ -7,7 +7,9 @@ public class RegistroResumos {
     }
     public void adiciona( String tema, String conteudo){
         resumos[cont] = new Resumo(tema , conteudo);
-        cont++;
+        if (cont < resumos.length) {
+            cont++;
+        }
     }
     public String [] pegaResumos() {
         String [] resumosexistentes = new String[cont];
