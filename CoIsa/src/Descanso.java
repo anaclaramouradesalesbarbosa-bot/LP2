@@ -8,7 +8,8 @@
 public class Descanso {
 
     /**
-     * Horas de descanso do aluno. No formato X, em que X é a quantidade de horas.
+     * Define o número de horas de descanso.
+     *
      */
 
     private int horasDeDescanso;
@@ -19,8 +20,9 @@ public class Descanso {
     private int numerosDeSemana;
 
     /**
-     * Registra as horas de descanso.
+     * Define/Registra o número de horas de descanso acumuladas.
      *
+     * @param horasDeDescanso a quantidade de horas descansadas a ser registrada
      */
 
     public void defineHorasDescanso (int horasDeDescanso){
@@ -28,8 +30,9 @@ public class Descanso {
     }
 
     /**
-     * Registra o número de semanas.
+     * Define/Registra o número de semanas acompanhadas.
      *
+     * @param numerosDeSemana o número de semanas a ser registrado
      */
 
     public void defineNumeroSemanas(int numerosDeSemana){
@@ -39,7 +42,7 @@ public class Descanso {
     /**
      * Retorna a String que representa se o aluno está cansado ou descansado. A representação segue o formato "cansado"-para os alunos que tiveram menos de 26 horas de descanso por semana- e "descansado" -para os alunos que tiverem mais de 26 horas de descanso por semana_.
      *
-     * @return a representação em String do descanso..
+     * @return a representação em String do descanso.
      */
 
     public String getStatusGeral() {

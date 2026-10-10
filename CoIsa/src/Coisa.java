@@ -1,3 +1,4 @@
+import java.util.Arrays;
 public class Coisa {
     public static void main(String[] args) {
         registrarDescanso();
@@ -46,6 +47,16 @@ public class Coisa {
             prog2.cadastraNota(4, 10.0);
             System.out.println(prog2.aprovado());
             System.out.println(prog2.toString());
+            Disciplina ed = new Disciplina("ESTRUTURA DE DADOS", 2);
+            ed.cadastraNota(1, 8.0);
+            ed.cadastraNota(2, 6.0);
+            System.out.println(ed.aprovado()); // Imprime true
+
+            int[] pesos = {6, 4};
+            Disciplina calc = new Disciplina("CALCULO", 2, pesos);
+            calc.cadastraNota(1, 5.0);
+            calc.cadastraNota(2, 10.0);
+            System.out.println(calc.aprovado());
         }
         private static void registrarResumos() {
             RegistroResumos meusResumos = new RegistroResumos(100);  // 100 resumos
@@ -67,6 +78,9 @@ public class Coisa {
             System.out.println(meusResumos.imprimeResumos());
             System.out.println(meusResumos.temResumo("Classes"));
             System.out.println(meusResumos.temResumo("Objetos"));
+
+            String[] buscaResultados = meusResumos.busca("UM");
+            System.out.println("Busca por 'UM': " + Arrays.toString(buscaResultados));
         }
     }
 
