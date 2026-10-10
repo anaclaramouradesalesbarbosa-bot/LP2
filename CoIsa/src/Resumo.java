@@ -33,7 +33,7 @@ public class Resumo {
         return tema + ": " + conteudo;
     }
     /**
-     * Retorna o tema do resumo[cite: 6].
+     * Retorna o tema do resumo
      *
      * @return o tema em String
      */
