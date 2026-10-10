@@ -13,7 +13,7 @@ public class Resumo {
      */
     private String conteudo;
     /**
-     * Constrói um resumo a partir do seu tema e conteúdo[cite: 6].
+     * Constrói um resumo a partir do seu tema e conteúdo.
      *
      * @param tema o tema do resumo
      * @param conteudo o conteúdo detalhado do resumo
