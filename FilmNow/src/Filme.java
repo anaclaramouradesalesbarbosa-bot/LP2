@@ -8,6 +8,5 @@ public class Filme {
         this.nome = nome;
         this.anoLancamento = anoLancamento;
         this.local = local;
-
     }
 }
