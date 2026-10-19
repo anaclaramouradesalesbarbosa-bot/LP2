@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CoIsa/CoIsa.iml" filepath="$PROJECT_DIR$/CoIsa/CoIsa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FilmNow/FilmNow.iml" filepath="$PROJECT_DIR$/FilmNow/FilmNow.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LP2.iml" filepath="$PROJECT_DIR$/.idea/LP2.iml" />
     </modules>
   </component>
