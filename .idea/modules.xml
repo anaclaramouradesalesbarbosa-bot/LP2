@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/CoIsa/CoIsa.iml" filepath="$PROJECT_DIR$/CoIsa/CoIsa.iml" />
       <module fileurl="file://$PROJECT_DIR$/FilmNow/FilmNow.iml" filepath="$PROJECT_DIR$/FilmNow/FilmNow.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/LP2.iml" filepath="$PROJECT_DIR$/.idea/LP2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RepareBem/RepareBem.iml" filepath="$PROJECT_DIR$/RepareBem/RepareBem.iml" />
     </modules>
   </component>
 </project>
